@@ -1,0 +1,20 @@
+# Laravel
+
+/vendor
+.env
+
+# Editors, tools and OS's
+
+.buildpath
+.htaccess
+.project
+.settings
+.idea
+.svn
+.DS_Store
+.sass-cache
+config.codekit
+*.sublime-project
+*.sublime-workspace
+nbproject
+
