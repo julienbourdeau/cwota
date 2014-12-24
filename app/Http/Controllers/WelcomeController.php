@@ -1,4 +1,4 @@
-<?php namespace App\Http\Controllers;
+<?php namespace Cwota\Http\Controllers;
 
 class WelcomeController extends Controller {
 

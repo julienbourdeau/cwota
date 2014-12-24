@@ -113,9 +113,9 @@ return [
 		/*
 		 * Application Service Providers...
 		 */
-		'App\Providers\AppServiceProvider',
-		'App\Providers\EventServiceProvider',
-		'App\Providers\RouteServiceProvider',
+		'Cwota\Providers\AppServiceProvider',
+		'Cwota\Providers\EventServiceProvider',
+		'Cwota\Providers\RouteServiceProvider',
 
 		/*
 		 * Laravel Framework Service Providers...
