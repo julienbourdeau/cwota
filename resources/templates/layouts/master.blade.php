@@ -26,8 +26,12 @@
     </div>
 
     <div class="main-container" id="main-container">
+
         <div class="sidebar responsive" id="sidebar">
-        <!-- sidebar goes here -->
+            @include('layouts.partials.sidebar-shortcuts')
+            <ul class="nav nav-list">
+                @include('layouts.partials.sidebar')
+            </ul>
         </div>
 
         <div class="main-content">

@@ -16,6 +16,11 @@ Route::get('/', 'WelcomeController@index');
 Route::get('home', 'HomeController@index');
 Route::get('dashboard', 'DashboardController@index');
 
+Route::get('customer', array('as' => 'customer', function()
+{
+    return 'customer';
+}));
+
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
