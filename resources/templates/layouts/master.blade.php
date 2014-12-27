@@ -22,7 +22,7 @@
 
 <body class="no-skin">
     <div class="navbar" id="navbar">
-    <!-- navbar goes here -->
+        @include('layouts.partials.brand')
     </div>
 
     <div class="main-container" id="main-container">
