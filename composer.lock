@@ -351,12 +351,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "1500be417d72017d30fc8dd61a0f641e4dad3743"
+                "reference": "c95dd53790e00cb53f99752b12c294418da69381"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/1500be417d72017d30fc8dd61a0f641e4dad3743",
-                "reference": "1500be417d72017d30fc8dd61a0f641e4dad3743",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/c95dd53790e00cb53f99752b12c294418da69381",
+                "reference": "c95dd53790e00cb53f99752b12c294418da69381",
                 "shasum": ""
             },
             "require": {
@@ -461,7 +461,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-12-25 17:40:16"
+            "time": "2014-12-27 22:21:57"
         },
         {
             "name": "league/flysystem",
@@ -1233,12 +1233,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpFoundation.git",
-                "reference": "2586ad0174be746a65b794fac16c45113c9c942f"
+                "reference": "7ff4f8c891adfa01833e19224b894d448685edd2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/2586ad0174be746a65b794fac16c45113c9c942f",
-                "reference": "2586ad0174be746a65b794fac16c45113c9c942f",
+                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/7ff4f8c891adfa01833e19224b894d448685edd2",
+                "reference": "7ff4f8c891adfa01833e19224b894d448685edd2",
                 "shasum": ""
             },
             "require": {
@@ -1277,7 +1277,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "http://symfony.com",
-            "time": "2014-12-23 17:34:42"
+            "time": "2014-12-26 10:31:05"
         },
         {
             "name": "symfony/http-kernel",
@@ -1841,12 +1841,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/phpspec.git",
-                "reference": "1678b4113601567a81b2c888cdbb0ff888862dc5"
+                "reference": "7d3e54ac4e13a77a78f7cd6b05fb2e6cba6353a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/phpspec/zipball/1678b4113601567a81b2c888cdbb0ff888862dc5",
-                "reference": "1678b4113601567a81b2c888cdbb0ff888862dc5",
+                "url": "https://api.github.com/repos/phpspec/phpspec/zipball/7d3e54ac4e13a77a78f7cd6b05fb2e6cba6353a0",
+                "reference": "7d3e54ac4e13a77a78f7cd6b05fb2e6cba6353a0",
                 "shasum": ""
             },
             "require": {
@@ -1862,7 +1862,7 @@
                 "symfony/yaml": "~2.1"
             },
             "require-dev": {
-                "behat/behat": "~3.0",
+                "behat/behat": "~3.0,>=3.0.11",
                 "bossa/phpspec2-expect": "~1.0",
                 "symfony/filesystem": "~2.1"
             },
@@ -1909,7 +1909,7 @@
                 "testing",
                 "tests"
             ],
-            "time": "2014-12-24 15:08:52"
+            "time": "2014-12-27 11:07:47"
         },
         {
             "name": "phpspec/prophecy",
