@@ -6,6 +6,8 @@ use Illuminate\Html\HtmlFacade as HTML;
 
 class MacroServiceProvider extends HtmlServiceProvider {
 
+    protected $defer = false;
+
 	/**
 	 * Bootstrap the application services.
 	 *

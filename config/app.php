@@ -115,8 +115,8 @@ return [
 		 */
 		'Cwota\Providers\AppServiceProvider',
 		'Cwota\Providers\EventServiceProvider',
-        'Cwota\Providers\RouteServiceProvider',
         'Cwota\Providers\MacroServiceProvider',
+        'Cwota\Providers\RouteServiceProvider',
 
 		/*
 		 * Laravel Framework Service Providers...
