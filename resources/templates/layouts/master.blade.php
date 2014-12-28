@@ -28,10 +28,17 @@
     <div class="main-container" id="main-container">
 
         <div class="sidebar responsive" id="sidebar">
+
             @include('layouts.partials.sidebar-shortcuts')
+
             <ul class="nav nav-list">
                 @include('layouts.partials.sidebar')
             </ul>
+
+            <div data-target="#sidebar" id="sidebar-collapse" class="sidebar-toggle sidebar-collapse">
+                <i class="ace-icon fa fa-angle-double-left" data-icon1="ace-icon fa fa-angle-double-left" data-icon2="ace-icon fa fa-angle-double-right"></i>
+            </div>
+
         </div>
 
         <div class="main-content">
@@ -61,6 +68,7 @@
     <!-- Third party JS files such as chosen.js -->
     {!! HTML::script('js/ace/ace-elements.js') !!}
     {!! HTML::script('js/ace/ace.js') !!}
+    {!! HTML::script('js/main.js') !!}
 
  </body>
 </html>

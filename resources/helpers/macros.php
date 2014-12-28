@@ -2,13 +2,15 @@
 
 // Here I put all my macro for HTMLBuilder
 
-HTML::macro('sidebar_item', function($text, $route, $icon = 'cutlery', $firstLevel = false, $hasChildren = false)
+HTML::macro('sidebar_item', function($text, $route, $icon = false, $firstLevel = false, $hasChildren = false)
 {
     // Handle named route or full path to action
     $link = (strpos($route, '@') !== false) ? action($route) : route($route);
 
     $html = '';
     $html .= '<a href="'.$link.'">';
+
+    if ($icon)
         $html .= '<i class="menu-icon fa fa-'.$icon.'"></i>';
 
     if ($firstLevel)
@@ -22,4 +24,16 @@ HTML::macro('sidebar_item', function($text, $route, $icon = 'cutlery', $firstLev
     $html .= '</a>';
 
     return $html;
+});
+
+HTML::macro('sidebar_class', function($path)
+{
+    $classes = '';
+
+    if (Request::segment(1) === $path)
+        $classes .= ' active';
+    else
+        $classes = 'hover';
+
+    return 'class="'.$classes.'"';
 });

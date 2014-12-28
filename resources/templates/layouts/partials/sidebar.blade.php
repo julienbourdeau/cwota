@@ -1,7 +1,8 @@
-<li>
-    {!! HTML::sidebar_item('Dashboard', 'DashboardController@index', 'dashboard', true, true) !!}
+<li {!! HTML::sidebar_class('dashboard') !!} >
+    {!! HTML::sidebar_item('Dashboard', 'DashboardController@index', 'dashboard', true) !!}
 </li>
-<li>
+
+<li {!! HTML::sidebar_class('customer') !!} >
     {!! HTML::sidebar_item('Customers', 'customer.index', 'user', true, true) !!}
     <b class="arrow"></b>
 
